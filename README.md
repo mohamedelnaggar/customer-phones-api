@@ -14,6 +14,6 @@ docker build -t customer-phones-api:latest  .
 docker run -p 8080:8080 customer-phones-api:latest
 ```
 
-Now you should be able to access our UI app [http://localhost:8080/swagger-ui.html] from your browser
+Now you should be able to access our UI app [http://localhost:8080/swagger-ui/index.html] from your browser
 
 
