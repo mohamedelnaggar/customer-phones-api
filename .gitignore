@@ -63,7 +63,6 @@ classes/
 *.jar
 *.war
 *.ear
-*.db
 
 ######################
 # Windows
