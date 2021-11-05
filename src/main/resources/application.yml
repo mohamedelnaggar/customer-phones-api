@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: com.jumia.api.config.SQLiteDialect
+        show_sql: true
+
+  datasource:
+    url: jdbc:sqlite::resource:sample.db
+    driver-class-name: org.sqlite.JDBC
+    type: com.jumia.api.config.SQLiteCustomDataSource
+
+application:
+  white-list-domains: http://localhost:4200
